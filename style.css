@@ -246,7 +246,7 @@ nav ul li a{
 	cursor: pointer;
 	background:linear-gradient(rgba(0,0,0,0.5),#009688);
 	opacity: 0;
-	transition: 0s;
+	transition: 0.5s;
 }
 .single-service:hover .overlay{
 	opacity: 1;
@@ -423,6 +423,6 @@ hr{
 		font-size: 14px;	
 	}
 	.footer-img{
-		top: 25%;
+		top: 30%;
 	}
 }
