@@ -245,8 +245,8 @@ nav ul li a{
 	border-radius: 7px;
 	cursor: pointer;
 	background:linear-gradient(rgba(0,0,0,0.5),#009688);
-	opacity: 0;
-	transition: 0.5s;
+	opacity: 0.3;
+	transition: 0s;
 }
 .single-service:hover .overlay{
 	opacity: 1;
@@ -254,11 +254,11 @@ nav ul li a{
 .service-desc{
 	width: 80%;
 	position: absolute;
-	bottom: 50%;
+	bottom: 40%;
 	left: 50%;
-	opacity: 0.8;
+	opacity: 1;
 	transform: translateX(-50%);
-	transition: 1s;
+	transition: 0s;
 }
 hr{
 	background:#fff;
