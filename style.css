@@ -258,7 +258,7 @@ nav ul li a{
 	left: 50%;
 	opacity: 1;
 	transform: translateX(-50%);
-	transition: 0s;
+	transition: 0.5s;
 }
 hr{
 	background:#fff;
@@ -268,12 +268,12 @@ hr{
 	width: 60%;
 }
 .service-desc p{
-	font-size: 14px;
+	font-size: 16px;
 }
-/*.single-service:hover .service-desc{
+.single-service:hover .service-desc{
 	bottom: 40%;
 	opacity: 1;
-}*/
+}
 @media screen and (max-width: 770px){
 	.single-service{
 			flex-basis: 100%;
