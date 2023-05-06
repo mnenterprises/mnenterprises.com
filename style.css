@@ -245,7 +245,7 @@ nav ul li a{
 	border-radius: 7px;
 	cursor: pointer;
 	background:linear-gradient(rgba(0,0,0,0.5),#009688);
-	opacity: 0;
+	opacity: 0.3;
 	transition: 0.5s;
 }
 .single-service:hover .overlay{
@@ -272,7 +272,7 @@ hr{
 }
 .single-service:hover .service-desc{
 	bottom: 38%;
-	opacity: 1;
+	opacity: 0;
 }
 @media screen and (max-width: 770px){
 	.single-service{
